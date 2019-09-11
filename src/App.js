@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import Footer from './components/Footer'
 import Content from './components/Content'
-import Container from 'react-bootstrap/Container'
 import NavCardGroup from './components/NavCardGroup'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -65,7 +64,7 @@ class App extends React.Component {
     }
 
     return (
-      <Container>
+      <React.Fragment>
         <Row>
             <Col className={style1} onClick={this.selectContent}>1001</Col>
             <Col className={style2} onClick={this.selectContent}>1002</Col>
@@ -74,7 +73,7 @@ class App extends React.Component {
         {nav}
         {content}
         <Footer />
-      </Container>
+      </React.Fragment>
     );
   }
 }
