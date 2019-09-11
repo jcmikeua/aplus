@@ -64,7 +64,7 @@ class App extends React.Component {
     }
 
     return (
-      <React.Fragment>
+      <div style={{paddingLeft: '10px', paddingRight: '10px'}}>
         <Row>
             <Col className={style1} onClick={this.selectContent}>1001</Col>
             <Col className={style2} onClick={this.selectContent}>1002</Col>
@@ -73,7 +73,7 @@ class App extends React.Component {
         {nav}
         {content}
         <Footer />
-      </React.Fragment>
+      </div>
     );
   }
 }
