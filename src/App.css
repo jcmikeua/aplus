@@ -1,3 +1,217 @@
+
+
+.navcontainer{
+  text-align: center;
+  height: 200px;
+}
+
+.nav {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+  background: linear-gradient(90deg, rgba(56,87,156,1) 0%, rgba(108,62,150,1) 100%);
+  height: 100%;
+  width: 100%;
+}
+.nav:hover{
+  background: #333333;
+}
+
+.navitem{
+  color: #ffffff;
+  display: inline;
+  padding: 0px;
+}
+
+.navitem img {
+  height: 100%;
+}
+
+#navitem1:hover img{
+  background: linear-gradient(90deg, rgba(56,87,156,1) 0%, rgba(66,82,163,1) 100%);
+}
+
+#navitem2:hover img{
+  background: linear-gradient(90deg, rgba(66,82,163,1) 0%, rgba(77,77,160,1) 100%);
+}
+
+#navitem3:hover img{
+  background: linear-gradient(90deg, rgba(77,77,160,1) 0%, rgba(87,72,156,1) 100%);
+}
+
+#navitem4:hover img{
+  background: linear-gradient(90deg, rgba(87,72,156,1) 0%, rgba(97,67,153,1) 100%);
+}
+
+#navitem5:hover img{
+  background: linear-gradient(90deg, rgba(97,67,153,1) 0%, rgba(108,62,150,1) 100%);
+}
+
+.myCard {
+  border-radius: 0px 20px 0px 20px;
+  filter: drop-shadow(0 0 0.3rem grey);
+  border: 0px;
+}
+
+.myCard:hover {
+  filter: drop-shadow(0 0 0.4rem grey);
+}
+
+.myCardGroup{
+  background: linear-gradient(90deg, rgba(56,87,156,1) 0%, rgba(108,62,150,1) 100%);
+  border: 0px;
+}
+
+.myCardGroup:hover{
+  background: #333333;
+  border: 0px;
+}
+
+.myCardGroupCard{
+  background: transparent;
+  border: 0px;
+  
+}
+
+.myCardGroupImage{
+  height: 100%;
+}
+
+#inactive1, #inactive2, #inactive3, #inactive4, #inactive5{
+  background: #333333;
+}
+
+#myCardGroupImage1:hover, #inactive1:hover{
+  background: linear-gradient(90deg, rgba(56,87,156,1) 0%, rgba(66,82,163,1) 100%);
+}
+
+#myCardGroupImage2:hover, #inactive2:hover{
+  background: linear-gradient(90deg, rgba(66,82,163,1) 0%, rgba(77,77,160,1) 100%);
+}
+
+#myCardGroupImage3:hover, #inactive3:hover {
+  background: linear-gradient(90deg, rgba(77,77,160,1) 0%, rgba(87,72,156,1) 100%);
+}
+
+#myCardGroupImage4:hover, #inactive4:hover {
+  background: linear-gradient(90deg, rgba(87,72,156,1) 0%, rgba(97,67,153,1) 100%);
+}
+
+#myCardGroupImage5:hover, #inactive5:hover {
+  background: linear-gradient(90deg, rgba(97,67,153,1) 0%, rgba(108,62,150,1) 100%);
+}
+
+
+
+.myCardImage{
+  background: linear-gradient(90deg, rgba(56,87,156,1) 0%, rgba(108,62,150,1) 100%);
+  width: 100%;
+  height: 50px;
+  border-radius: 0px 20px 0px 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gradientLeft{
+  background: linear-gradient(90deg, rgba(56,87,156,1) 0%, rgba(87,72,156,1) 100%);
+  width: 100%;
+  height: 50px;
+  border-radius: 0px 20px 0px 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gradientRight{
+  background: linear-gradient(90deg, rgba(87,72,156,1) 0%, rgba(108,62,150,1) 100%);
+  width: 100%;
+  height: 50px;
+  border-radius: 0px 20px 0px 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gradient1{
+  background: linear-gradient(90deg, rgba(56,87,156,1) 0%, rgba(77,77,160,1) 100%);
+  width: 100%;
+  height: 50px;
+  border-radius: 0px 20px 0px 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gradient2{
+  background: linear-gradient(90deg, rgba(77,77,160,1) 0%, rgba(87,72,156,1) 100%);
+  width: 100%;
+  height: 50px;
+  border-radius: 0px 20px 0px 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gradient3{
+  background: linear-gradient(90deg, rgba(87,72,156,1) 0%, rgba(108,62,150,1) 100%);
+  width: 100%;
+  height: 50px;
+  border-radius: 0px 20px 0px 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contentSelector1{
+  width: 100%;
+  font-size: 18pt;
+  color: white;
+  background: #333333;
+  text-align: center;
+  margin-left: 15px;
+}
+
+.contentSelected1{
+  width: 100%;
+  font-size: 18pt;
+  color: white;
+  background: #414449;
+  text-align: center;
+  margin-left: 15px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.contentSelected2{
+  width: 100%;
+  font-size: 18pt;
+  color: white;
+  background: #414449;
+  text-align: center;
+  margin-right: 15px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+.contentSelector2{
+  width: 100%;
+  font-size: 18pt;
+  color: white;
+  background: #333333;
+  text-align: center;
+  margin-right: 15px;
+}
+
+.contentSelector1:hover{
+  background: #414449;
+}
+.contentSelector2:hover{
+  background: #414449;
+}
+
 .App {
   text-align: center;
 }
@@ -9,7 +223,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #333333;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
